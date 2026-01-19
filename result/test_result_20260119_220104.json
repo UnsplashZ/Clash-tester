@@ -1,0 +1,2874 @@
+{
+  "test_time": "2026-01-19T21:55:52.7420084+08:00",
+  "source": "http://192.168.2.6:33301/XvnKS6477yZPZ3VweANK/download/collection/Mix?target=ClashMeta",
+  "total_nodes": 46,
+  "tested_nodes": 46,
+  "success_nodes": 45,
+  "results": [
+    {
+      "node_name": "B-🇬🇧 [三网]UK 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 691,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 4608,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "AS",
+          "status_code": 200,
+          "response_time_ms": 2764,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "GB",
+          "response_time_ms": 2138
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "GB",
+          "response_time_ms": 5379
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "GB",
+          "details": "Full",
+          "response_time_ms": 3301
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "GB",
+          "details": "Premium Available",
+          "response_time_ms": 2211
+        }
+      },
+      "total_time_ms": 25421
+    },
+    {
+      "node_name": "B-🇰🇷 [三网]KR 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 505,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 4781,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "AS",
+          "status_code": 200,
+          "response_time_ms": 2204,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "KR",
+          "response_time_ms": 4298
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "KR",
+          "response_time_ms": 8653
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "KR",
+          "details": "Full",
+          "response_time_ms": 4281
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "KR",
+          "details": "Premium Available",
+          "response_time_ms": 1588
+        }
+      },
+      "total_time_ms": 29729
+    },
+    {
+      "node_name": "B-🇭🇰 [三网]HK 02",
+      "node_type": "trojan",
+      "server": "75b708aa-eb1f-97e5-18e0-2355cabe2b0c.relay.moe233.org",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 803,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 5551,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1066,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": false,
+          "response_time_ms": 5695,
+          "error": "Get \"https://www.disneyplus.com/\": EOF"
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 3538
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "HK",
+          "details": "Full",
+          "response_time_ms": 3118
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "HK",
+          "details": "Premium Available",
+          "response_time_ms": 659
+        }
+      },
+      "total_time_ms": 30362
+    },
+    {
+      "node_name": "B-🇭🇰 [Hy2]HK 01",
+      "node_type": "hysteria2",
+      "server": "203.218.68.90",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 807,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 983,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 598,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 2
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 581
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 1096
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "HK",
+          "details": "Full",
+          "response_time_ms": 2545
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "HK",
+          "details": "Premium Available",
+          "response_time_ms": 649
+        }
+      },
+      "total_time_ms": 18867
+    },
+    {
+      "node_name": "B-🇷🇺 [三网]RU 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1177,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "RU",
+          "status_code": 200,
+          "response_time_ms": 2861,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 3633,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 2
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": false,
+          "response_time_ms": 1088,
+          "error": "redirected to preview/unavailable"
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "RU",
+          "response_time_ms": 8049
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "RU",
+          "details": "Originals Only",
+          "response_time_ms": 10452
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": false,
+          "response_time_ms": 10000,
+          "error": "Get \"https://www.youtube.com/\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+        }
+      },
+      "total_time_ms": 48147
+    },
+    {
+      "node_name": "B-🇭🇰 [Hy2]HK 03",
+      "node_type": "hysteria2",
+      "server": "175.29.23.134",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1262,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 2015,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1156,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 1018
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 2313
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "HK",
+          "details": "Full",
+          "response_time_ms": 2909
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "HK",
+          "details": "Premium Available",
+          "response_time_ms": 1800
+        }
+      },
+      "total_time_ms": 18806
+    },
+    {
+      "node_name": "B-🇫🇷 [三网]FR 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "response_time_ms": 5484,
+          "error": "Get \"https://claude.ai/login\": EOF",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "response_time_ms": 5453,
+          "error": "Get \"https://gemini.google.com/app\": EOF",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "AS",
+          "status_code": 200,
+          "response_time_ms": 1996,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "response_time_ms": 7632
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "FR",
+          "response_time_ms": 3837
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": false,
+          "response_time_ms": 10974,
+          "error": "blocked"
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "IT",
+          "details": "Premium Available",
+          "response_time_ms": 1379
+        }
+      },
+      "total_time_ms": 60524
+    },
+    {
+      "node_name": "B-🇺🇸 [Hy2]US 01",
+      "node_type": "hysteria2",
+      "server": "104.168.6.134",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 250,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1752,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1791,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 2226
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 2373
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "US",
+          "details": "Full",
+          "response_time_ms": 2466
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "US",
+          "details": "Premium Available",
+          "response_time_ms": 1215
+        }
+      },
+      "total_time_ms": 13919
+    },
+    {
+      "node_name": "B-🇯🇵 [Hy2]JP 02",
+      "node_type": "hysteria2",
+      "server": "153.122.174.19",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 762,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 2219,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 938,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 2453
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 1497
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "JP",
+          "details": "Full",
+          "response_time_ms": 3483
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "JP",
+          "details": "Premium Available",
+          "response_time_ms": 778
+        }
+      },
+      "total_time_ms": 16892
+    },
+    {
+      "node_name": "B-🇯🇵 [Hy2]JP 01",
+      "node_type": "hysteria2",
+      "server": "153.122.119.184",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 480,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 9830,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 1651,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 2697
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 11430
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "JP",
+          "details": "Full",
+          "response_time_ms": 5009
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "JP",
+          "details": "Premium Available",
+          "response_time_ms": 659
+        }
+      },
+      "total_time_ms": 33711
+    },
+    {
+      "node_name": "B-🇭🇰 [Hy2]HK 02",
+      "node_type": "hysteria2",
+      "server": "61.93.6.48",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "response_time_ms": 10000,
+          "error": "Get \"https://www.anthropic.com/app-unavailable-in-region\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1648,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1596,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 2098
+        },
+        "max": {
+          "service": "max",
+          "available": false,
+          "response_time_ms": 10000,
+          "error": "Get \"https://www.hbomax.com/\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "HK",
+          "details": "Full",
+          "response_time_ms": 7782
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "HK",
+          "details": "Premium Available",
+          "response_time_ms": 2195
+        }
+      },
+      "total_time_ms": 56323
+    },
+    {
+      "node_name": "B-🇹🇼 [Hy2]TW 01",
+      "node_type": "hysteria2",
+      "server": "118.167.7.107",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 255,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 2330,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 871,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 2
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "TW",
+          "response_time_ms": 2196
+        },
+        "max": {
+          "service": "max",
+          "available": false,
+          "response_time_ms": 6165,
+          "error": "Get \"https://www.max.com/\": EOF"
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "TW",
+          "details": "Full",
+          "response_time_ms": 6924
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "TW",
+          "details": "Premium Available",
+          "response_time_ms": 1131
+        }
+      },
+      "total_time_ms": 27455
+    },
+    {
+      "node_name": "B-🇺🇸 [Hy2]US 03",
+      "node_type": "hysteria2",
+      "server": "104.153.208.166",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "response_time_ms": 5253,
+          "error": "Get \"https://claude.ai/login\": EOF",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1367,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 2736,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": false,
+          "response_time_ms": 5238,
+          "error": "Get \"https://www.disneyplus.com/\": EOF"
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 2206
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "US",
+          "details": "Full",
+          "response_time_ms": 1487
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "US",
+          "details": "Premium Available",
+          "response_time_ms": 1895
+        }
+      },
+      "total_time_ms": 31981
+    },
+    {
+      "node_name": "K-🇺🇸America 01 San José",
+      "node_type": "vless",
+      "server": "us1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 237,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1088,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1614,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 2133
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 4513
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "US",
+          "details": "Full",
+          "response_time_ms": 4865
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "US",
+          "details": "Premium Available",
+          "response_time_ms": 3406
+        }
+      },
+      "total_time_ms": 25085
+    },
+    {
+      "node_name": "B-🇺🇸 [Hy2]US 02",
+      "node_type": "hysteria2",
+      "server": "23.94.213.251",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 608,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "status_code": 200,
+          "response_time_ms": 7553,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1379,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 3
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": false,
+          "response_time_ms": 5338,
+          "error": "Get \"https://www.disneyplus.com/\": EOF"
+        },
+        "max": {
+          "service": "max",
+          "available": false,
+          "response_time_ms": 3747,
+          "error": "Get \"https://www.max.com/\": EOF"
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "US",
+          "details": "Originals Only",
+          "response_time_ms": 6089
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "US",
+          "details": "Premium Available",
+          "response_time_ms": 2747
+        }
+      },
+      "total_time_ms": 43720
+    },
+    {
+      "node_name": "K-🇺🇸America 02 San José",
+      "node_type": "vless",
+      "server": "us2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 786,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 2250,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1572,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 3106
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 5946
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "US",
+          "details": "Full",
+          "response_time_ms": 4734
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "US",
+          "details": "Premium Available",
+          "response_time_ms": 3546
+        }
+      },
+      "total_time_ms": 27656
+    },
+    {
+      "node_name": "K-🇺🇸America 03 Phoenix",
+      "node_type": "vless",
+      "server": "us3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 287,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 781,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 2593,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 2383
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 4878
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "US",
+          "details": "Full",
+          "response_time_ms": 3787
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "US",
+          "details": "Premium Available",
+          "response_time_ms": 3223
+        }
+      },
+      "total_time_ms": 25210
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 01 Amazon",
+      "node_type": "vless",
+      "server": "sg1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 264,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 2550,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1382,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "SG",
+          "response_time_ms": 3005
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "SG",
+          "response_time_ms": 3250
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "SG",
+          "details": "Full",
+          "response_time_ms": 3399
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "SG",
+          "details": "Premium Available",
+          "response_time_ms": 2048
+        }
+      },
+      "total_time_ms": 18774
+    },
+    {
+      "node_name": "K-🇺🇸America 04 Phoenix",
+      "node_type": "vless",
+      "server": "us4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 530,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 1238,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1333,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 3655
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "US",
+          "response_time_ms": 5152
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "US",
+          "details": "Full",
+          "response_time_ms": 6035
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "US",
+          "details": "Premium Available",
+          "response_time_ms": 4492
+        }
+      },
+      "total_time_ms": 30961
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 02 Amazon",
+      "node_type": "vless",
+      "server": "sg2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 812,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 4600,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1281,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "SG",
+          "response_time_ms": 2310
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "SG",
+          "response_time_ms": 5305
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "SG",
+          "details": "Full",
+          "response_time_ms": 4762
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "SG",
+          "details": "Premium Available",
+          "response_time_ms": 1347
+        }
+      },
+      "total_time_ms": 24066
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 04 Amazon",
+      "node_type": "vless",
+      "server": "sg4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 3094,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 3216,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1138,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "SG",
+          "response_time_ms": 1943
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "SG",
+          "response_time_ms": 2523
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "SG",
+          "details": "Full",
+          "response_time_ms": 3907
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "SG",
+          "details": "Premium Available",
+          "response_time_ms": 929
+        }
+      },
+      "total_time_ms": 19087
+    },
+    {
+      "node_name": "K-🇯🇵Japan 01 Amazon",
+      "node_type": "vless",
+      "server": "jp1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 144,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 3714,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 849,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 1674
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 2615
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "JP",
+          "details": "Full",
+          "response_time_ms": 4327
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "JP",
+          "details": "Premium Available",
+          "response_time_ms": 1144
+        }
+      },
+      "total_time_ms": 16176
+    },
+    {
+      "node_name": "K-🇯🇵Japan 03 Amazon",
+      "node_type": "vless",
+      "server": "jp3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 171,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 2119,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 527,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 1900
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 3798
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "JP",
+          "details": "Full",
+          "response_time_ms": 2906
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "JP",
+          "details": "Premium Available",
+          "response_time_ms": 953
+        }
+      },
+      "total_time_ms": 14551
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 03 Amazon",
+      "node_type": "vless",
+      "server": "sg3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 175,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 3053,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 580,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 2
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "SG",
+          "response_time_ms": 2836
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "SG",
+          "response_time_ms": 11232
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "SG",
+          "details": "Full",
+          "response_time_ms": 3909
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "SG",
+          "details": "Premium Available",
+          "response_time_ms": 1524
+        }
+      },
+      "total_time_ms": 31643
+    },
+    {
+      "node_name": "K-🇯🇵Japan 02 Amazon",
+      "node_type": "vless",
+      "server": "jp2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 145,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 3474,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 758,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 2395
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 4345
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "JP",
+          "details": "Full",
+          "response_time_ms": 4155
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "JP",
+          "details": "Premium Available",
+          "response_time_ms": 932
+        }
+      },
+      "total_time_ms": 18890
+    },
+    {
+      "node_name": "K-🇰🇷Korea 01 Chuncheon",
+      "node_type": "hysteria2",
+      "server": "kr1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 108,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 2218,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 452,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "KR",
+          "response_time_ms": 1744
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "KR",
+          "response_time_ms": 2187
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "KR",
+          "details": "Full",
+          "response_time_ms": 3062
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "KR",
+          "details": "Premium Available",
+          "response_time_ms": 834
+        }
+      },
+      "total_time_ms": 12223
+    },
+    {
+      "node_name": "K-🇰🇷Korea 02 Chuncheon",
+      "node_type": "hysteria2",
+      "server": "kr2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 115,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 2305,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 645,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "KR",
+          "response_time_ms": 1598
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "KR",
+          "response_time_ms": 2135
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "KR",
+          "details": "Full",
+          "response_time_ms": 3059
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "KR",
+          "details": "Premium Available",
+          "response_time_ms": 1084
+        }
+      },
+      "total_time_ms": 12512
+    },
+    {
+      "node_name": "K-🇯🇵Japan 04 Amazon",
+      "node_type": "vless",
+      "server": "jp4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 216,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 2091,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 777,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": false,
+          "response_time_ms": 9885,
+          "error": "unexpected status: 500"
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "JP",
+          "response_time_ms": 3480
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "JP",
+          "details": "Full",
+          "response_time_ms": 3624
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "JP",
+          "details": "Premium Available",
+          "response_time_ms": 846
+        }
+      },
+      "total_time_ms": 22621
+    },
+    {
+      "node_name": "K-🇳🇱Netherlands 01",
+      "node_type": "vless",
+      "server": "nl1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 389,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 497,
+          "error": "region blocked (403)",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "NL",
+          "status_code": 200,
+          "response_time_ms": 1531,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "NL",
+          "response_time_ms": 3288
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "NL",
+          "response_time_ms": 8157
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "NL",
+          "details": "Full",
+          "response_time_ms": 6067
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "NL",
+          "details": "Premium Available",
+          "response_time_ms": 5845
+        }
+      },
+      "total_time_ms": 32107
+    },
+    {
+      "node_name": "K-🇳🇱Netherlands 02",
+      "node_type": "vless",
+      "server": "nl2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 430,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 909,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "NL",
+          "status_code": 200,
+          "response_time_ms": 1600,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 2
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "NL",
+          "response_time_ms": 3645
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "NL",
+          "response_time_ms": 6681
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "NL",
+          "details": "Full",
+          "response_time_ms": 5383
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "NL",
+          "details": "Premium Available",
+          "response_time_ms": 3260
+        }
+      },
+      "total_time_ms": 36239
+    },
+    {
+      "node_name": "K-🇫🇷France Paris 01",
+      "node_type": "vless",
+      "server": "fr1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 407,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 890,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "FR",
+          "status_code": 200,
+          "response_time_ms": 1668,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "FR",
+          "response_time_ms": 3643
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "FR",
+          "response_time_ms": 6776
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "FR",
+          "details": "Full",
+          "response_time_ms": 5158
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "FR",
+          "details": "Premium Available",
+          "response_time_ms": 5309
+        }
+      },
+      "total_time_ms": 31065
+    },
+    {
+      "node_name": "K-🇫🇷France Paris 02",
+      "node_type": "vless",
+      "server": "fr2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 2512,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 516,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "FR",
+          "status_code": 200,
+          "response_time_ms": 1972,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "FR",
+          "response_time_ms": 3272
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "FR",
+          "response_time_ms": 6652
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "FR",
+          "details": "Full",
+          "response_time_ms": 6025
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "FR",
+          "details": "Premium Available",
+          "response_time_ms": 3474
+        }
+      },
+      "total_time_ms": 32890
+    },
+    {
+      "node_name": "K-🇮🇹Italy Milan 01",
+      "node_type": "vless",
+      "server": "it1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 449,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 812,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "IT",
+          "status_code": 200,
+          "response_time_ms": 1767,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "IT",
+          "response_time_ms": 3079
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "IT",
+          "response_time_ms": 7252
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "IT",
+          "details": "Full",
+          "response_time_ms": 6873
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "IT",
+          "details": "Premium Available",
+          "response_time_ms": 3856
+        }
+      },
+      "total_time_ms": 32739
+    },
+    {
+      "node_name": "K-🇬🇧United Kingdom 02",
+      "node_type": "vless",
+      "server": "uk2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 366,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 853,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 1948,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "GB",
+          "response_time_ms": 3278
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "GB",
+          "response_time_ms": 7193
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "GB",
+          "details": "Full",
+          "response_time_ms": 4473
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "GB",
+          "details": "Premium Available",
+          "response_time_ms": 3206
+        }
+      },
+      "total_time_ms": 28349
+    },
+    {
+      "node_name": "K-🇮🇹Italy Milan 02",
+      "node_type": "vless",
+      "server": "it2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 439,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 963,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "IT",
+          "status_code": 200,
+          "response_time_ms": 2186,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "IT",
+          "response_time_ms": 4417
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "IT",
+          "response_time_ms": 7441
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "IT",
+          "details": "Full",
+          "response_time_ms": 6259
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "IT",
+          "details": "Premium Available",
+          "response_time_ms": 4042
+        }
+      },
+      "total_time_ms": 34922
+    },
+    {
+      "node_name": "K-🇬🇧United Kingdom 01",
+      "node_type": "vless",
+      "server": "uk1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 384,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 850,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 2142,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 2
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "GB",
+          "response_time_ms": 3050
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "GB",
+          "response_time_ms": 7357
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "GB",
+          "details": "Full",
+          "response_time_ms": 6199
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "GB",
+          "details": "Premium Available",
+          "response_time_ms": 3015
+        }
+      },
+      "total_time_ms": 35679
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Telecom 01",
+      "node_type": "vless",
+      "server": "hk1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 3044,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 3881,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 2623,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 3225
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 9608
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "HK",
+          "details": "Full",
+          "response_time_ms": 7256
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "Get \"https://www.youtube.com/\": EOF"
+        }
+      },
+      "total_time_ms": 46572
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Amazon 03",
+      "node_type": "vless",
+      "server": "hk3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1902,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1713,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 500,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 1739
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 4247
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "HK",
+          "details": "Full",
+          "response_time_ms": 3990
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "HK",
+          "details": "Premium Available",
+          "response_time_ms": 1605
+        }
+      },
+      "total_time_ms": 31296
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Telecom 02",
+      "node_type": "vless",
+      "server": "hk2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1577,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 5435,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 2086,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 3952
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 10055
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": false,
+          "response_time_ms": 10001,
+          "error": "blocked"
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "HK",
+          "details": "Premium Available",
+          "response_time_ms": 6531
+        }
+      },
+      "total_time_ms": 50552
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Hinet 01",
+      "node_type": "vless",
+      "server": "tw1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 129,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 5288,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 523,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "TW",
+          "response_time_ms": 3185
+        },
+        "max": {
+          "service": "max",
+          "available": false,
+          "response_time_ms": 6104,
+          "error": "Get \"https://www.max.com/\": EOF"
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "TW",
+          "details": "Full",
+          "response_time_ms": 8455
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "TW",
+          "details": "Premium Available",
+          "response_time_ms": 2789
+        }
+      },
+      "total_time_ms": 28347
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Amazon 04",
+      "node_type": "vless",
+      "server": "tw4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 115,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 1368,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 988,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "TW",
+          "response_time_ms": 1287
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "TW",
+          "response_time_ms": 2347
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "TW",
+          "details": "Full",
+          "response_time_ms": 4245
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "TW",
+          "details": "Premium Available",
+          "response_time_ms": 883
+        }
+      },
+      "total_time_ms": 13004
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Amazon 04",
+      "node_type": "vless",
+      "server": "hk4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1262,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1855,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 2202,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": false,
+          "response_time_ms": 4941,
+          "error": "Get \"https://www.disneyplus.com/\": EOF"
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "HK",
+          "response_time_ms": 5442
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "HK",
+          "details": "Originals Only",
+          "response_time_ms": 11785
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "HK",
+          "details": "Premium Available",
+          "response_time_ms": 1727
+        }
+      },
+      "total_time_ms": 47623
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Amazon 03",
+      "node_type": "vless",
+      "server": "tw3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1582,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 1098,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 931,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "TW",
+          "response_time_ms": 1278
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "TW",
+          "response_time_ms": 6279
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "TW",
+          "details": "Full",
+          "response_time_ms": 3475
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "TW",
+          "details": "Premium Available",
+          "response_time_ms": 1748
+        }
+      },
+      "total_time_ms": 20019
+    },
+    {
+      "node_name": "K-🇩🇪Deutschland 01",
+      "node_type": "vless",
+      "server": "de1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 459,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 900,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "DE",
+          "status_code": 200,
+          "response_time_ms": 2121,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "DE",
+          "response_time_ms": 3214
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "DE",
+          "response_time_ms": 6738
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "DE",
+          "details": "Full",
+          "response_time_ms": 6464
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "DE",
+          "details": "Premium Available",
+          "response_time_ms": 2782
+        }
+      },
+      "total_time_ms": 30904
+    },
+    {
+      "node_name": "K-🇩🇪Deutschland 02",
+      "node_type": "vless",
+      "server": "de2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 5653,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 569,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "DE",
+          "status_code": 200,
+          "response_time_ms": 1874,
+          "attempts": 1
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": true,
+          "region": "DE",
+          "response_time_ms": 6338
+        },
+        "max": {
+          "service": "max",
+          "available": true,
+          "region": "DE",
+          "response_time_ms": 11146
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": true,
+          "region": "DE",
+          "details": "Full",
+          "response_time_ms": 6885
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": true,
+          "region": "DE",
+          "details": "Premium Available",
+          "response_time_ms": 3250
+        }
+      },
+      "total_time_ms": 44089
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Hinet 02",
+      "node_type": "vless",
+      "server": "tw2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "Get \"https://claude.ai/login\": EOF",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "Get \"https://gemini.google.com/app\": EOF",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 3
+        }
+      },
+      "stream_tests": {
+        "disney": {
+          "service": "disney",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "Get \"https://www.disneyplus.com/\": EOF"
+        },
+        "max": {
+          "service": "max",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "Get \"https://www.max.com/\": EOF"
+        },
+        "netflix": {
+          "service": "netflix",
+          "available": false,
+          "response_time_ms": 10001,
+          "error": "blocked"
+        },
+        "youtube": {
+          "service": "youtube",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "Get \"https://www.youtube.com/\": EOF"
+        }
+      },
+      "total_time_ms": 73008
+    }
+  ],
+  "summary": {
+    "openai": {
+      "available_count": 45,
+      "unavailable_count": 1,
+      "countries": [
+        "US",
+        "TW",
+        "NL",
+        "FR",
+        "IT",
+        "GB",
+        "DE",
+        "AS",
+        "SG",
+        "JP",
+        "HK",
+        "KR"
+      ]
+    },
+    "gemini": {
+      "available_count": 32,
+      "unavailable_count": 14,
+      "countries": [
+        "GB",
+        "KR",
+        "HK",
+        "RU",
+        "JP",
+        "US",
+        "TW",
+        "SG"
+      ]
+    },
+    "claude": {
+      "available_count": 0,
+      "unavailable_count": 46,
+      "countries": []
+    },
+    "streaming": {
+      "disney": {
+        "available_count": 39,
+        "unavailable_count": 7,
+        "countries": [
+          "KR",
+          "HK",
+          "US",
+          "JP",
+          "SG",
+          "NL",
+          "TW",
+          "FR",
+          "IT",
+          "DE",
+          "GB"
+        ]
+      },
+      "max": {
+        "available_count": 41,
+        "unavailable_count": 5,
+        "countries": [
+          "KR",
+          "RU",
+          "FR",
+          "IT",
+          "TW",
+          "GB",
+          "HK",
+          "US",
+          "JP",
+          "SG",
+          "NL",
+          "DE"
+        ]
+      },
+      "netflix": {
+        "available_count": 43,
+        "unavailable_count": 3,
+        "countries": [
+          "DE",
+          "GB",
+          "HK",
+          "RU",
+          "US",
+          "IT",
+          "KR",
+          "JP",
+          "TW",
+          "SG",
+          "NL",
+          "FR"
+        ]
+      },
+      "youtube": {
+        "available_count": 43,
+        "unavailable_count": 3,
+        "countries": [
+          "HK",
+          "US",
+          "JP",
+          "TW",
+          "NL",
+          "GB",
+          "KR",
+          "IT",
+          "SG",
+          "FR",
+          "DE"
+        ]
+      }
+    }
+  }
+}

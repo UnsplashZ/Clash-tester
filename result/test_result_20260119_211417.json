@@ -1,0 +1,1523 @@
+{
+  "test_time": "2026-01-19T21:02:55.997782+08:00",
+  "source": "https://config.zetam.cn:16666/XvnKS6477yZPZ3VweANK/api/file/MixConfig",
+  "total_nodes": 46,
+  "tested_nodes": 46,
+  "success_nodes": 45,
+  "results": [
+    {
+      "node_name": "B-🇭🇰 [三网]HK 02",
+      "node_type": "trojan",
+      "server": "75b708aa-eb1f-97e5-18e0-2355cabe2b0c.relay.moe233.org",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 5261,
+          "attempts": 1
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 5692,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1380,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 12334
+    },
+    {
+      "node_name": "B-🇰🇷 [三网]KR 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 435,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 4082,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "AS",
+          "status_code": 200,
+          "response_time_ms": 2916,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 10460
+    },
+    {
+      "node_name": "B-🇬🇧 [三网]UK 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 670,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 5870,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "AS",
+          "status_code": 200,
+          "response_time_ms": 3231,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 15596
+    },
+    {
+      "node_name": "B-🇫🇷 [三网]FR 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "response_time_ms": 5444,
+          "error": "request failed: Get \"https://claude.ai/\": EOF",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "status_code": 200,
+          "response_time_ms": 9842,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "AS",
+          "status_code": 200,
+          "response_time_ms": 1948,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 29064
+    },
+    {
+      "node_name": "B-🇷🇺 [三网]RU 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": true,
+          "country": "RU",
+          "status_code": 200,
+          "response_time_ms": 3892,
+          "attempts": 1
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "RU",
+          "status_code": 200,
+          "response_time_ms": 2728,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 7787,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 14408
+    },
+    {
+      "node_name": "B-🇭🇰 [Hy2]HK 01",
+      "node_type": "hysteria2",
+      "server": "203.218.68.90",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1942,
+          "attempts": 1
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 429,
+          "response_time_ms": 1390,
+          "error": "request failed: Get \"https://www.google.com/sorry/index?continue=https://gemini.google.com/app\u0026q=EhAmAv7a8w8P7kJK9CSeun5zGNjXuMsGIjAcW1QjKKaTENN1ZItGC73x-tDheHmjKbbklqEmKP4vR7WPXJVtLt45L0Fxaxwu51QyCT5yUmVDY25kaloBQw\": EOF",
+          "attempts": 2
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 934,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 9248
+    },
+    {
+      "node_name": "B-🇭🇰 [Hy2]HK 02",
+      "node_type": "hysteria2",
+      "server": "61.93.6.48",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "response_time_ms": 10000,
+          "error": "request failed: Get \"https://www.anthropic.com/app-unavailable-in-region\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1742,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 913,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 33657
+    },
+    {
+      "node_name": "B-🇭🇰 [Hy2]HK 03",
+      "node_type": "hysteria2",
+      "server": "175.29.23.134",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 3006,
+          "attempts": 1
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 2012,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 2011,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 7030
+    },
+    {
+      "node_name": "B-🇯🇵 [Hy2]JP 01",
+      "node_type": "hysteria2",
+      "server": "153.122.119.184",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 410,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 5554,
+          "error": "request failed: Get \"https://gemini.google.com/app\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+          "attempts": 2
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 1620,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 19973
+    },
+    {
+      "node_name": "B-🇯🇵 [Hy2]JP 02",
+      "node_type": "hysteria2",
+      "server": "153.122.174.19",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 1012,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 3055,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 769,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 7542
+    },
+    {
+      "node_name": "B-🇺🇸 [Hy2]US 01",
+      "node_type": "hysteria2",
+      "server": "104.168.6.134",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 281,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 2040,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 6434,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 10640
+    },
+    {
+      "node_name": "B-🇺🇸 [Hy2]US 02",
+      "node_type": "hysteria2",
+      "server": "23.94.213.251",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 297,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "status_code": 200,
+          "response_time_ms": 8102,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1169,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 14808
+    },
+    {
+      "node_name": "B-🇺🇸 [Hy2]US 03",
+      "node_type": "hysteria2",
+      "server": "104.153.208.166",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 260,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1920,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 3298,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 7147
+    },
+    {
+      "node_name": "B-🇹🇼 [Hy2]TW 01",
+      "node_type": "hysteria2",
+      "server": "118.167.7.107",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 266,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 1672,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 7210,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 10568
+    },
+    {
+      "node_name": "K-🇺🇸America 01 San José",
+      "node_type": "vless",
+      "server": "us1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 240,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 5329,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 6034,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 14616
+    },
+    {
+      "node_name": "K-🇺🇸America 02 San José",
+      "node_type": "vless",
+      "server": "us2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 323,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 5929,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 2704,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 11468
+    },
+    {
+      "node_name": "K-🇺🇸America 03 Phoenix",
+      "node_type": "vless",
+      "server": "us3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 359,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 6983,
+          "error": "request failed: Get \"https://www.google.com/sorry/index?continue=https://gemini.google.com/app\u0026q=EgSE4lQ3GP3YuMsGIjB4cjKCXimE-TDo7zD0pg1bBGBmkF0B5HXLjLUwvUXkHWOfb8ErC6DMO-wgXjB9u0AyCT5yUmVDY25kaloBQw\": stopped after 10 redirects",
+          "attempts": 2
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1213,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 20443
+    },
+    {
+      "node_name": "K-🇺🇸America 04 Phoenix",
+      "node_type": "vless",
+      "server": "us4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 457,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 3051,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 3020,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 8938
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 01 Amazon",
+      "node_type": "vless",
+      "server": "sg1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 150,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 2775,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 719,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 6295
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 02 Amazon",
+      "node_type": "vless",
+      "server": "sg2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 195,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 3116,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1456,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 7479
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 03 Amazon",
+      "node_type": "vless",
+      "server": "sg3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 184,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 3936,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 937,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 6735
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 04 Amazon",
+      "node_type": "vless",
+      "server": "sg4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 203,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 6062,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 2100,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 10288
+    },
+    {
+      "node_name": "K-🇯🇵Japan 01 Amazon",
+      "node_type": "vless",
+      "server": "jp1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 260,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 2335,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 762,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 5547
+    },
+    {
+      "node_name": "K-🇯🇵Japan 02 Amazon",
+      "node_type": "vless",
+      "server": "jp2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 148,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 2384,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 680,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 5224
+    },
+    {
+      "node_name": "K-🇯🇵Japan 03 Amazon",
+      "node_type": "vless",
+      "server": "jp3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 149,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 2660,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 923,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 6008
+    },
+    {
+      "node_name": "K-🇯🇵Japan 04 Amazon",
+      "node_type": "vless",
+      "server": "jp4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1171,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 2174,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 1314,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 11301
+    },
+    {
+      "node_name": "K-🇰🇷Korea 01 Chuncheon",
+      "node_type": "hysteria2",
+      "server": "kr1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 123,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 2738,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 579,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 5009
+    },
+    {
+      "node_name": "K-🇰🇷Korea 02 Chuncheon",
+      "node_type": "hysteria2",
+      "server": "kr2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 110,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 2681,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 547,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 4778
+    },
+    {
+      "node_name": "K-🇳🇱Netherlands 01",
+      "node_type": "vless",
+      "server": "nl1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 4264,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 476,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "NL",
+          "status_code": 200,
+          "response_time_ms": 3358,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 17703
+    },
+    {
+      "node_name": "K-🇳🇱Netherlands 02",
+      "node_type": "vless",
+      "server": "nl2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 398,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "NL",
+          "status_code": 200,
+          "response_time_ms": 10263,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "NL",
+          "status_code": 200,
+          "response_time_ms": 3131,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 17662
+    },
+    {
+      "node_name": "K-🇫🇷France Paris 01",
+      "node_type": "vless",
+      "server": "fr1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1091,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "FR",
+          "status_code": 200,
+          "response_time_ms": 8626,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "FR",
+          "status_code": 200,
+          "response_time_ms": 2308,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 19112
+    },
+    {
+      "node_name": "K-🇫🇷France Paris 02",
+      "node_type": "vless",
+      "server": "fr2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 522,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "FR",
+          "status_code": 200,
+          "response_time_ms": 7808,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "FR",
+          "status_code": 200,
+          "response_time_ms": 1822,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 13714
+    },
+    {
+      "node_name": "K-🇮🇹Italy Milan 01",
+      "node_type": "vless",
+      "server": "it1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 383,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "IT",
+          "status_code": 200,
+          "response_time_ms": 7689,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "IT",
+          "status_code": 200,
+          "response_time_ms": 1757,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 12852
+    },
+    {
+      "node_name": "K-🇮🇹Italy Milan 02",
+      "node_type": "vless",
+      "server": "it2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 1918,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "IT",
+          "status_code": 200,
+          "response_time_ms": 7771,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "IT",
+          "status_code": 200,
+          "response_time_ms": 1986,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 15586
+    },
+    {
+      "node_name": "K-🇬🇧United Kingdom 01",
+      "node_type": "vless",
+      "server": "uk1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 2093,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 7150,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 2142,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 14297
+    },
+    {
+      "node_name": "K-🇬🇧United Kingdom 02",
+      "node_type": "vless",
+      "server": "uk2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 381,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 7292,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 1560,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 13177
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Telecom 01",
+      "node_type": "vless",
+      "server": "hk1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 7326,
+          "attempts": 1
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 5365,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 2463,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 15155
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Telecom 02",
+      "node_type": "vless",
+      "server": "hk2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 6595,
+          "attempts": 1
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 4832,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1069,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 12498
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Amazon 03",
+      "node_type": "vless",
+      "server": "hk3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 7374,
+          "attempts": 1
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 6558,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1663,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 15595
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Amazon 04",
+      "node_type": "vless",
+      "server": "hk4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 5261,
+          "attempts": 1
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 2371,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1977,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 9611
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Hinet 01",
+      "node_type": "vless",
+      "server": "tw1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 115,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 8523,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 843,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 12962
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Hinet 02",
+      "node_type": "vless",
+      "server": "tw2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "response_time_ms": 5001,
+          "error": "request failed: Get \"https://claude.ai/\": EOF",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "request failed: Get \"https://gemini.google.com/app\": EOF",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": false,
+          "response_time_ms": 10000,
+          "error": "request failed: Get \"https://chat.openai.com/cdn-cgi/trace\": EOF",
+          "attempts": 3
+        }
+      },
+      "total_time_ms": 63009
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Amazon 03",
+      "node_type": "vless",
+      "server": "tw3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1501,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 4029,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 602,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 9435
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Amazon 04",
+      "node_type": "vless",
+      "server": "tw4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 377,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 3404,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 5967,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 11908
+    },
+    {
+      "node_name": "K-🇩🇪Deutschland 01",
+      "node_type": "vless",
+      "server": "de1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 496,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "DE",
+          "status_code": 200,
+          "response_time_ms": 10209,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "DE",
+          "status_code": 200,
+          "response_time_ms": 1745,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 16679
+    },
+    {
+      "node_name": "K-🇩🇪Deutschland 02",
+      "node_type": "vless",
+      "server": "de2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 719,
+          "error": "region blocked (status: 403)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "DE",
+          "status_code": 200,
+          "response_time_ms": 9716,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "DE",
+          "status_code": 200,
+          "response_time_ms": 2930,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 17045
+    }
+  ],
+  "summary": {
+    "openai": {
+      "available_count": 45,
+      "unavailable_count": 1,
+      "countries": [
+        "SG",
+        "HK",
+        "TW",
+        "NL",
+        "GB",
+        "AS",
+        "JP",
+        "US",
+        "KR",
+        "FR",
+        "IT",
+        "DE"
+      ]
+    },
+    "gemini": {
+      "available_count": 44,
+      "unavailable_count": 2,
+      "countries": [
+        "SG",
+        "FR",
+        "IT",
+        "KR",
+        "GB",
+        "RU",
+        "JP",
+        "NL",
+        "DE",
+        "HK",
+        "US",
+        "TW"
+      ]
+    },
+    "claude": {
+      "available_count": 8,
+      "unavailable_count": 38,
+      "countries": [
+        "HK",
+        "RU"
+      ]
+    }
+  }
+}

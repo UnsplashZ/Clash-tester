@@ -1,0 +1,1526 @@
+{
+  "test_time": "2026-01-19T21:19:36.5179629+08:00",
+  "source": "https://config.zetam.cn:16666/XvnKS6477yZPZ3VweANK/api/file/MixConfig",
+  "total_nodes": 46,
+  "tested_nodes": 46,
+  "success_nodes": 45,
+  "results": [
+    {
+      "node_name": "B-🇬🇧 [三网]UK 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 2288,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 5113,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "AS",
+          "status_code": 200,
+          "response_time_ms": 1991,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 12395
+    },
+    {
+      "node_name": "B-🇭🇰 [三网]HK 02",
+      "node_type": "trojan",
+      "server": "75b708aa-eb1f-97e5-18e0-2355cabe2b0c.relay.moe233.org",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 2033,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 3960,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1385,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 14162
+    },
+    {
+      "node_name": "B-🇷🇺 [三网]RU 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1389,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "RU",
+          "status_code": 200,
+          "response_time_ms": 1645,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 2512,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 2
+        }
+      },
+      "total_time_ms": 15856
+    },
+    {
+      "node_name": "B-🇫🇷 [三网]FR 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 960,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "status_code": 200,
+          "response_time_ms": 8903,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "AS",
+          "status_code": 200,
+          "response_time_ms": 2059,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 16836
+    },
+    {
+      "node_name": "B-🇭🇰 [Hy2]HK 01",
+      "node_type": "hysteria2",
+      "server": "203.218.68.90",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 813,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1985,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1220,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 7958
+    },
+    {
+      "node_name": "B-🇯🇵 [Hy2]JP 01",
+      "node_type": "hysteria2",
+      "server": "153.122.119.184",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 240,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 2818,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 956,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 6083
+    },
+    {
+      "node_name": "B-🇰🇷 [三网]KR 01",
+      "node_type": "trojan",
+      "server": "123.235.37.181",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 1016,
+          "error": "Get \"https://claude.ai/login\": unexpected EOF",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 8378,
+          "error": "Get \"https://gemini.google.com/app\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+          "attempts": 2
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "AS",
+          "status_code": 200,
+          "response_time_ms": 1484,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 25624
+    },
+    {
+      "node_name": "B-🇯🇵 [Hy2]JP 02",
+      "node_type": "hysteria2",
+      "server": "153.122.174.19",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 1134,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 1489,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 605,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 6055
+    },
+    {
+      "node_name": "B-🇭🇰 [Hy2]HK 02",
+      "node_type": "hysteria2",
+      "server": "61.93.6.48",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1436,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 4885,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1019,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 17187
+    },
+    {
+      "node_name": "B-🇭🇰 [Hy2]HK 03",
+      "node_type": "hysteria2",
+      "server": "175.29.23.134",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1647,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 2977,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1829,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 2
+        }
+      },
+      "total_time_ms": 17410
+    },
+    {
+      "node_name": "B-🇺🇸 [Hy2]US 03",
+      "node_type": "hysteria2",
+      "server": "104.153.208.166",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 254,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 555,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1778,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 8979
+    },
+    {
+      "node_name": "B-🇺🇸 [Hy2]US 01",
+      "node_type": "hysteria2",
+      "server": "104.168.6.134",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 315,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 771,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1712,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 13175
+    },
+    {
+      "node_name": "B-🇺🇸 [Hy2]US 02",
+      "node_type": "hysteria2",
+      "server": "23.94.213.251",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 292,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1073,
+          "error": "Get \"https://gemini.google.com/app\": EOF",
+          "attempts": 2
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 4096,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 11210
+    },
+    {
+      "node_name": "K-🇺🇸America 01 San José",
+      "node_type": "vless",
+      "server": "us1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 329,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 2045,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1456,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 6892
+    },
+    {
+      "node_name": "K-🇺🇸America 02 San José",
+      "node_type": "vless",
+      "server": "us2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 258,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 753,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1767,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 9910
+    },
+    {
+      "node_name": "B-🇹🇼 [Hy2]TW 01",
+      "node_type": "hysteria2",
+      "server": "118.167.7.107",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 332,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 5282,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 1392,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 16881
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 01 Amazon",
+      "node_type": "vless",
+      "server": "sg1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 215,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 5265,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1540,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 9028
+    },
+    {
+      "node_name": "K-🇺🇸America 04 Phoenix",
+      "node_type": "vless",
+      "server": "us4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 305,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1891,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 4399,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 13691
+    },
+    {
+      "node_name": "K-🇺🇸America 03 Phoenix",
+      "node_type": "vless",
+      "server": "us3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 4710,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 786,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "US",
+          "status_code": 200,
+          "response_time_ms": 1795,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 14491
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 02 Amazon",
+      "node_type": "vless",
+      "server": "sg2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 156,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 3526,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 1450,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 8447
+    },
+    {
+      "node_name": "K-🇯🇵Japan 01 Amazon",
+      "node_type": "vless",
+      "server": "jp1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 136,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 3395,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 1376,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 7083
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 03 Amazon",
+      "node_type": "vless",
+      "server": "sg3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1333,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 2522,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 965,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 10574
+    },
+    {
+      "node_name": "K-🇯🇵Japan 02 Amazon",
+      "node_type": "vless",
+      "server": "jp2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 139,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 2847,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 1969,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 8680
+    },
+    {
+      "node_name": "K-🇰🇷Korea 01 Chuncheon",
+      "node_type": "hysteria2",
+      "server": "kr1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 100,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 3394,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 438,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 5272
+    },
+    {
+      "node_name": "K-🇰🇷Korea 02 Chuncheon",
+      "node_type": "hysteria2",
+      "server": "kr2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 104,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 2434,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "KR",
+          "status_code": 200,
+          "response_time_ms": 571,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 4559
+    },
+    {
+      "node_name": "K-🇯🇵Japan 03 Amazon",
+      "node_type": "vless",
+      "server": "jp3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 430,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 6520,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 4376,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 13493
+    },
+    {
+      "node_name": "K-🇯🇵Japan 04 Amazon",
+      "node_type": "vless",
+      "server": "jp4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 399,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 3458,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "JP",
+          "status_code": 200,
+          "response_time_ms": 538,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 2
+        }
+      },
+      "total_time_ms": 11718
+    },
+    {
+      "node_name": "K-🇸🇬Singapore 04 Amazon",
+      "node_type": "vless",
+      "server": "sg4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 1513,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 3476,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "SG",
+          "status_code": 200,
+          "response_time_ms": 4294,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 2
+        }
+      },
+      "total_time_ms": 20041
+    },
+    {
+      "node_name": "K-🇳🇱Netherlands 01",
+      "node_type": "vless",
+      "server": "nl1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 447,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 510,
+          "error": "region blocked (403)",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "NL",
+          "status_code": 200,
+          "response_time_ms": 5127,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 12598
+    },
+    {
+      "node_name": "K-🇳🇱Netherlands 02",
+      "node_type": "vless",
+      "server": "nl2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 445,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 984,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "NL",
+          "status_code": 200,
+          "response_time_ms": 3019,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 13028
+    },
+    {
+      "node_name": "K-🇫🇷France Paris 01",
+      "node_type": "vless",
+      "server": "fr1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 410,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 529,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "FR",
+          "status_code": 200,
+          "response_time_ms": 2313,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 10592
+    },
+    {
+      "node_name": "K-🇮🇹Italy Milan 01",
+      "node_type": "vless",
+      "server": "it1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 486,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 2058,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "IT",
+          "status_code": 200,
+          "response_time_ms": 3063,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 14465
+    },
+    {
+      "node_name": "K-🇫🇷France Paris 02",
+      "node_type": "vless",
+      "server": "fr2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 3168,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 882,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "FR",
+          "status_code": 200,
+          "response_time_ms": 1722,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 18041
+    },
+    {
+      "node_name": "K-🇬🇧United Kingdom 01",
+      "node_type": "vless",
+      "server": "uk1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 407,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 388,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 2912,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 9992
+    },
+    {
+      "node_name": "K-🇬🇧United Kingdom 02",
+      "node_type": "vless",
+      "server": "uk2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 475,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 488,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "GB",
+          "status_code": 200,
+          "response_time_ms": 1719,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 9391
+    },
+    {
+      "node_name": "K-🇮🇹Italy Milan 02",
+      "node_type": "vless",
+      "server": "it2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 436,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 998,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "IT",
+          "status_code": 200,
+          "response_time_ms": 3766,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 3
+        }
+      },
+      "total_time_ms": 24690
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Amazon 04",
+      "node_type": "vless",
+      "server": "hk4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 946,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 5070,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1495,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 12892
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Hinet 01",
+      "node_type": "vless",
+      "server": "tw1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 164,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 3041,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 987,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 8464
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Telecom 02",
+      "node_type": "vless",
+      "server": "hk2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 2016,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 6962,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 2663,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 23560
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Telecom 01",
+      "node_type": "vless",
+      "server": "hk1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 2551,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 6373,
+          "error": "Get \"https://gemini.google.com/app\": EOF",
+          "attempts": 2
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 1333,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 30007
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Amazon 03",
+      "node_type": "vless",
+      "server": "tw3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 118,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 2600,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 1106,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 5445
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Amazon 04",
+      "node_type": "vless",
+      "server": "tw4.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 136,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 3683,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "TW",
+          "status_code": 200,
+          "response_time_ms": 655,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 7231
+    },
+    {
+      "node_name": "K-🇭🇰Hong Kong Amazon 03",
+      "node_type": "vless",
+      "server": "hk3.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 200,
+          "response_time_ms": 2128,
+          "error": "region not supported",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 3490,
+          "attempts": 1
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "HK",
+          "status_code": 200,
+          "response_time_ms": 2089,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+          "attempts": 2
+        }
+      },
+      "total_time_ms": 33954
+    },
+    {
+      "node_name": "K-🇩🇪Deutschland 01",
+      "node_type": "vless",
+      "server": "de1.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 651,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 553,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "DE",
+          "status_code": 200,
+          "response_time_ms": 2064,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 12563
+    },
+    {
+      "node_name": "K-🇩🇪Deutschland 02",
+      "node_type": "vless",
+      "server": "de2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "status_code": 403,
+          "response_time_ms": 758,
+          "error": "IP blocked (403 Forbidden)",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "status_code": 302,
+          "response_time_ms": 925,
+          "error": "redirected to unsupported page",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": true,
+          "country": "DE",
+          "status_code": 200,
+          "response_time_ms": 2539,
+          "attempts": 1
+        }
+      },
+      "total_time_ms": 11419
+    },
+    {
+      "node_name": "K-🇹🇼Taiwan Hinet 02",
+      "node_type": "vless",
+      "server": "tw2.miyazono-kaori.com",
+      "tests": {
+        "claude": {
+          "service": "claude",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "Get \"https://claude.ai/login\": EOF",
+          "attempts": 3
+        },
+        "gemini": {
+          "service": "gemini",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "Get \"https://gemini.google.com/app\": EOF",
+          "attempts": 3
+        },
+        "openai": {
+          "service": "openai",
+          "available": false,
+          "response_time_ms": 5000,
+          "error": "Get \"https://chatgpt.com/cdn-cgi/trace\": EOF",
+          "attempts": 3
+        }
+      },
+      "total_time_ms": 48007
+    }
+  ],
+  "summary": {
+    "openai": {
+      "available_count": 45,
+      "unavailable_count": 1,
+      "countries": [
+        "SG",
+        "JP",
+        "TW",
+        "KR",
+        "NL",
+        "FR",
+        "GB",
+        "AS",
+        "HK",
+        "US",
+        "IT",
+        "DE"
+      ]
+    },
+    "gemini": {
+      "available_count": 31,
+      "unavailable_count": 15,
+      "countries": [
+        "SG",
+        "RU",
+        "JP",
+        "KR",
+        "US",
+        "GB",
+        "HK",
+        "TW"
+      ]
+    },
+    "claude": {
+      "available_count": 0,
+      "unavailable_count": 46,
+      "countries": []
+    }
+  }
+}
