@@ -1,40 +1,35 @@
 version: '3.8'
 
 services:
-  # ------------------------------------------------
-  # 1. 生产者：定时测试节点并生成 JSON
-  # ------------------------------------------------
   tester:
     build: .
     container_name: clash-tester-worker
     restart: unless-stopped
     environment:
-      # ⚠️ 替换为你的订阅链接
-      - SUB_URL=https://example.com/api/v1/client/subscribe?token=your_token
-      # 检测间隔 (秒)，默认 1 小时
+      - SUB_URL=https://your-subscription-url.com/sub
       - INTERVAL=3600
       - TZ=Asia/Shanghai
     volumes:
-      # 挂载名为 shared_data 的 Docker Volume 到容器内的 /data
-      - shared_data:/data
+      - ./data:/data
+      # ⚠️ 关键：同步宿主机时间，防止节点鉴权失败
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    # ⚠️ 关键：使用公共 DNS，防止 Docker 内部 DNS 解析失败
+    dns:
+      - 223.5.5.5
+      - 8.8.8.8
 
-  # ------------------------------------------------
-  # 2. 暴露者：提供 HTTP 访问接口
-  # ------------------------------------------------
   server:
     image: nginx:alpine
     container_name: clash-tester-server
     restart: unless-stopped
     ports:
-      # 外部访问端口
       - "8080:80"
     volumes:
-      # 只读挂载同一个 Volume 到 Nginx 的 Web 根目录
-      - shared_data:/usr/share/nginx/html:ro
-      # 可选：挂载自定义 Nginx 配置以禁用缓存
-      # - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./data:/usr/share/nginx/html:ro
     depends_on:
       - tester
 
-volumes:
-  shared_data:
+# 如果上述配置依然无法联通，请注释掉上面的 networks/ports 配置，
+# 并取消下面这一行的注释，使用 Host 网络模式（最强力）：
+#   network_mode: host

@@ -1,48 +1,39 @@
 # Dockerfile
-# 多阶段构建
-
 # Stage 1: Build Golang Binary
-FROM golang:1.23-alpine AS builder
+FROM golang:1.23-bullseye AS builder
 
 WORKDIR /app
 
-# 安装 git (go mod download 可能需要)
-RUN apk add --no-cache git
+# 安装 git
+RUN apt-get update && apt-get install -y git
 
-# 复制依赖文件并下载
 COPY go.mod go.sum ./
 RUN go mod download
 
-# 复制源码并编译
 COPY . .
-# CGO_ENABLED=0 静态编译，减小体积且更兼容
+# CGO_ENABLED=0 静态编译
 RUN CGO_ENABLED=0 GOOS=linux go build -o clash-tester cmd/main.go
 
-# Stage 2: Runtime Image
-FROM alpine:latest
+# Stage 2: Runtime Image (Debian Slim)
+FROM debian:bullseye-slim
 
 WORKDIR /app
 
 # 安装基础依赖
-# ca-certificates: HTTPS 请求必需
-# tzdata: 时区设置必需
-# curl, gzip: 下载 mihomo 必需
-RUN apk add --no-cache ca-certificates tzdata curl gzip
+# ca-certificates: HTTPS 证书
+# curl, gzip: 下载工具
+# tzdata: 时区
+RUN apt-get update && apt-get install -y ca-certificates curl gzip tzdata && rm -rf /var/lib/apt/lists/*
 
-# 复制编译好的二进制文件
 COPY --from=builder /app/clash-tester /app/clash-tester
-
-# 复制 entrypoint 脚本
 COPY entrypoint.sh /app/entrypoint.sh
 RUN chmod +x /app/entrypoint.sh
 
-# 自动下载 Mihomo (Clash Meta) 核心
-# 使用 alpha 版本通常更新修复快，也可以改为 release
-# 这里通过 uname -m 判断架构自动下载
-ARG MIHOMO_VERSION=v1.18.1
+# 自动下载 Mihomo (使用 compatible 模式以防万一)
+ARG MIHOMO_VERSION=v1.19.19
 RUN ARCH=$(uname -m) && \
     case "$ARCH" in \
-        x86_64) MIHOMO_ARCH="amd64" ;; \
+        x86_64) MIHOMO_ARCH="amd64-compatible" ;; \
         aarch64) MIHOMO_ARCH="arm64" ;; \
         *) echo "Unsupported architecture: $ARCH"; exit 1 ;; \
     esac && \
@@ -51,11 +42,9 @@ RUN ARCH=$(uname -m) && \
     gzip -d mihomo.gz && \
     chmod +x mihomo
 
-# 设置时区为上海
+# 设置时区
 ENV TZ=Asia/Shanghai
 
-# 定义数据卷挂载点
 VOLUME /data
 
-# 启动命令
 ENTRYPOINT ["/app/entrypoint.sh"]
